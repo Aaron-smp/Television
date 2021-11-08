@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.target=television
+comment1.params=marcaTV\ volumenTV
+comment1.target=television(java.lang.String,\ int)
+comment2.params=
+comment2.target=java.lang.String\ getMarca()
+comment3.params=
+comment3.target=int\ getVolumen()
+comment4.params=
+comment4.target=boolean\ getEncendida()
+comment5.params=newMarca
+comment5.target=void\ setMarca(java.lang.String)
+comment6.params=subirVolumen
+comment6.target=void\ setSubirVolumen(int)
+comment7.params=
+comment7.target=void\ botonApagarEncender()
+comment8.params=
+comment8.target=void\ infoTV()
+comment9.params=
+comment9.target=void\ estadoTV()
+numComments=10

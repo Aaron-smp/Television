@@ -1,0 +1,19 @@
+Televisión 
+
+Marca
+Volumen
+Si esta encendida o no
+
+Un constructor en el que asignes la marca y el volumen pero que si esta encendida
+o no empieza siempre encendida.
+
+Tres metodos para que nos de los atributos por separado.
+
+Un metodo para cambiar la marca de la televisión.
+
+Un metodo para subir volumen a la TV.
+
+Un metodo que apague o encienda la TV dependiendo si esta encendida o apagada.
+
+Por ultimo un metodo que nos diga el estado actual de la television con la marca y el volumen.
+
