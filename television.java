@@ -45,22 +45,23 @@ public class television {
     }
 
     public void infoTV(){
-        System.out.println("La marca de la television es " + marca + "|" + "Tiene " + volumen + " de volumen");
+        String info;
         if(teleEncendida == true){
-            System.out.println("La television si está encendida");
+            info = ("la television si está encendida");
         }
         else {
-            System.out.println("La television está apagada" );
+            info = ("la television está apagada" );
         }
+        System.out.println("La marca de la television es " + marca + " |" + " Tiene " + volumen + " de volumen" + " |" + info);
     }
 
     public String estadoTV(){
         String estado; 
         if(teleEncendida == true){
-            estado = ("encendida");
+            estado = ("La marca de la television es " + marca + " |" + " Tiene " + volumen + "de volumen | La television esta encendida");
         }
         else{
-            estado = ("apagada");
+            estado = ("La marca de la television es " + marca + " |" + " Tiene " + volumen +  " de volumen | La television esta apagada");
         }
         return estado;
     }
