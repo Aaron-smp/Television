@@ -56,12 +56,13 @@ public class television {
     }
 
     public String estadoTV(){
-        String estado; 
+        String estado;
+        estado = ("La marca de la television es " + marca + " |" + " Tiene " + volumen + "de volumen | ");
         if(teleEncendida == true){
-            estado = ("La marca de la television es " + marca + " |" + " Tiene " + volumen + "de volumen | La television esta encendida");
+            estado += ("La television esta encendida");
         }
         else{
-            estado = ("La marca de la television es " + marca + " |" + " Tiene " + volumen +  " de volumen | La television esta apagada");
+            estado += ("La television esta apagada");
         }
         return estado;
     }
