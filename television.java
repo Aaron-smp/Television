@@ -1,7 +1,7 @@
 public class television {
     //marca de la television
     private String marca;
-    //tamaño en pulgadas de la television
+    //nivel de volumen de la television
     private int volumen;
     //si esta la television encendida o apagada
     private boolean teleEncendida;
@@ -54,12 +54,11 @@ public class television {
     }
 
     public void estadoTV(){
-        System.out.println("La television esta ");
         if(teleEncendida == true){
-            System.out.println("encendida");
+            System.out.println("La television esta encendida");
         }
         else{
-            System.out.println("apagada");
+            System.out.println("La television esta apagada");
         }
     }
 }
